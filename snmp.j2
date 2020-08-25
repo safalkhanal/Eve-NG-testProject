@@ -1,7 +1,7 @@
-snmp-server community respirolab RO
-snmp-server community respirolabwrite RW 10
+snmp-server community {{snmp.ro}} RO
+snmp-server community {{snmp.rw}} RW 10
 snmp-server trap-source Loopback1
-snmp-server host 192.168.1.25
-snmp-server location Sydney
-snmp-server contact lab@respiro.com.au
+snmp-server host {{snmp.host}}
+snmp-server location {{snmp.location}}
+snmp-server contact {{snmp.contact}}
 snmp-server system-shutdown
