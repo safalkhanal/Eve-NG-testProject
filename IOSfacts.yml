@@ -37,9 +37,9 @@
       debug:
         msg: "The serial number is: {{ ansible_net_serialnum }}"
        
-    - name: DEPLOY INTERFACE CONFIG
+    - name: DEPLOY AAA CONFIG
       ios_config:
-        src: "interface.j2"
+        src: "aaa.j2"
         
       
     
