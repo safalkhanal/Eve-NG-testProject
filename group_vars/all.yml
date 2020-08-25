@@ -1,0 +1,23 @@
+---
+
+switch_interfaces:
+  - interface: FastEthernet1/1
+    deascription: This is FastEthernet1/1
+  - interface: FastEthernet1/2
+    deascription: This is FastEthernet1/2
+  - interface: FastEthernet1/3
+    deascription: This is FastEthernet1/3
+  - interface: FastEthernet1/4
+    deascription: This is FastEthernet1/4
+  - interface: FastEthernet1/5
+    deascription: This is FastEthernet1/5
+  - interface: FastEthernet1/6
+    deascription: This is FastEthernet1/6
+  - interface: FastEthernet1/7
+    deascription: This is FastEthernet1/7
+  - interface: FastEthernet1/8
+    deascription: This is FastEthernet1/8
+    
+    
+    
+    
