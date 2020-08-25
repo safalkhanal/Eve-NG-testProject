@@ -36,18 +36,10 @@
     - name: DISPLAY  NOS SERIAL NUMBER
       debug:
         msg: "The serial number is: {{ ansible_net_serialnum }}"
-        
-    - name: DEPLOY SNMP CONFIG
-      ios_config:
-        src: "snmp.j2"
-        
+       
     - name: DEPLOY INTERFACE CONFIG
       ios_config:
         src: "interface.j2"
-        
-    - name: DEPLOY AAA CONFIG
-      ios_config: 
-        src: "aaa.j2"
         
       
     
