@@ -41,6 +41,6 @@
       ios_config:
         src: "aaa.j2"
     
-    - name: DEPLOY SNMP CONFIG
+    - name: DEPLOY INTERFACE CONFIG
       ios_config:
-        src: "snmp.j2"
+        src: "interface.j2"
