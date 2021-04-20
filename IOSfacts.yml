@@ -13,7 +13,6 @@
     tasks:
     # Collect all facts from the device
     - name: IOS FACTS
-      meta: clear_facts
       ios_facts:
        # gather_subset:
         #  - "hardware"
