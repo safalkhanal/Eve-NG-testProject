@@ -1,6 +1,7 @@
 ---
   - hosts: all
     gather_facts: False
+    meta: clear_facts
         
     connection: network_cli
   
